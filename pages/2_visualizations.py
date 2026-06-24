@@ -77,7 +77,7 @@ with col2:
         df,
         x="score",
         nbins=10,
-        color_discrete_sequence=["#636EFA"],
+        color_discrete_sequence=["#086A78"],
         title="📊 Distribution des Notes",
         labels={"score": "Note ⭐"},
     )
