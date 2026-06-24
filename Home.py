@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Competitor Analysis",
+    page_title="Competitor App Analysis",
     page_icon="📊",
     layout="wide",                
     initial_sidebar_state="expanded",
@@ -17,7 +17,6 @@ with col1:
     st.header("🔍 Vue d'ensemble")
     st.markdown("""
         Cette application analyse la **concurrence sur le Google Play Store**.
-
         À partir d'un mot-clé, l'app :
         - Récupère les applications correspondantes
         - Affiche les résultats dans un tableau interactif
@@ -30,7 +29,7 @@ with col2:
     st.markdown("""
         - 🔎 Recherche dynamique par mot-clé
         - 📋 Tableau filtrable et triable
-        - 📈 Bar charts, pie charts, word cloud
+        - 📈 Bar charts,pie charts,word cloud
         - 💬 Sentiment Analysis (HuggingFace)
         - 🎛️ Filtres interactifs dans la sidebar
     """)
@@ -41,7 +40,7 @@ st.header("📖 Comment utiliser l'application")
 with st.expander("1️⃣  Search & Results"):
     st.write("""
         Va sur la page Search & Results dans le menu à gauche.
-        Tape un mot-clé (ex: note taking ai, fitness tracker).
+        Tape un mot-clé (ex: gaming apps,video streaming).
         Clique sur Lancer la recherche.
     """)
 
@@ -63,7 +62,7 @@ st.markdown("---")
 
 st.header("🛠️ Améliorations futures")
 
-col3, col4=st.columns(2)
+col3,col4=st.columns(2)
 
 with col3:
     st.markdown("""
@@ -80,4 +79,4 @@ with col4:
     """)
 
 st.markdown("---")
-st.caption("Data Applications Lab 2 — ENSIAS — Juin 2026")
+st.caption("Data Application— ENSIAS —Juin 2026")
